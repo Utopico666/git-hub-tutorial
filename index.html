@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Blog de Hardware</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Mi Blog de Hardware</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#descripcion">Descripción Personal</a></li>
+                <li><a href="#contacto">Cómo Contactarme</a></li>
+                <li><a href="#hardware">Qué es el Hardware</a></li>
+                <li><a href="#partes">Partes del Hardware</a></li>
+                <li><a href="#evolucion">Inicios y Evolución del Hardware</a></li>
+                <li><a href="#personajes">Personajes Relevantes del Hardware</a></li>
+                <li><a href="#tutorial git">Tutorial de Git</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio">
+        <h2>Bienvenido a mi blog</h2>
+        <p>Este es un espacio dedicado al fascinante mundo del hardware. Aquí encontrarás información, noticias y recursos sobre el hardware de computadoras y su evolución.</p>
+    </section>
+
+    <section id="descripcion">
+        <h2>Descripción Personal</h2>
+        <p>Hola, soy Arley Steven Franco Galeano, estudiante de Ingeniería de Software y Datos de la IU Digital de Anyioquia. Soy un entusiasta del hardware y la tecnología. En este blog, comparto mis conocimientos y experiencias sobre hardware, desde los conceptos básicos hasta las innovaciones más recientes.</p>
+    </section>
+
+    <section id="contacto">
+        <h2>Cómo Contactarme</h2>
+        <p>Si tienes preguntas o quieres ponerte en contacto conmigo, puedes hacerlo de las siguientes maneras:</p>
+        <ul>
+            <li>Email: <a href="arley.franco@est.iudigital.edu.co">arley.franco@est.iudigital.edu.co</a></li>
+            <li>Teléfono: +57 3127220269</li>
+            <li>Instagram: Utopico_mc
+            </li>
+        </ul>
+    </section>
+
+    <section id="hardware">
+        <h2>Qué es el Hardware</h2>
+        <p>El hardware se refiere a las partes físicas de una computadora o sistema electrónico. Incluye todos los componentes y dispositivos que forman parte del sistema, como la CPU, la memoria RAM, y los discos duros.</p>
+    </section>
+
+    <section id="partes">
+        <h2>Partes del Hardware</h2>
+        <p>Las principales partes del hardware de una computadora incluyen:</p>
+        <ul>
+            <li><strong>Unidad Central de Procesamiento (CPU):</strong> El cerebro de la computadora que realiza la mayoría de los procesos de cálculo.</li>
+            <li><strong>Memoria RAM:</strong> La memoria de acceso rápido que almacena datos temporales.</li>
+            <li><strong>Disco Duro/SSD:</strong> El almacenamiento a largo plazo para datos y programas.</li>
+            <li><strong>Placa Base:</strong> La placa principal que conecta todos los componentes.</li>
+            <li><strong>Tarjeta Gráfica:</strong> Encargada de procesar y renderizar gráficos.</li>
+        </ul>
+    </section>
+
+    <section id="evolucion">
+        <h2>Inicios y Evolución del Hardware</h2>
+        <p>Desde los primeros ordenadores de válvulas de vacío hasta los modernos sistemas basados en semiconductores, el hardware ha avanzado considerablemente. Las primeras computadoras eran grandes, costosas y menos eficientes en comparación con las máquinas actuales.</p>
+        <p>A lo largo de las décadas, hemos visto la transición de grandes computadoras de mainframe a computadoras personales, y más recientemente, a dispositivos móviles y sistemas integrados.</p>
+    </section>
+
+    <section id="personajes">
+        <h2>Personajes Relevantes del Hardware</h2>
+        <p>Algunos de los personajes más influyentes en el desarrollo del hardware incluyen:</p>
+        <ul>
+            <li><strong>Alan Turing:</strong> Considerado el padre de la informática teórica y la computación moderna.</li>
+            <li><strong>John von Neumann:</strong> Desarrolló la arquitectura de von Neumann, fundamental para la arquitectura de computadoras.</li>
+            <li><strong>Steve Wozniak:</strong> Cofundador de Apple y diseñador de la computadora Apple I y II.</li>
+            <li><strong>Linus Torvalds:</strong> Creador del sistema operativo Linux, que ha influido en el hardware de servidores y otros dispositivos.</li>
+        </ul>
+    </section>
+
+    <section id="tutorial git">
+        <h2>Tutorial de git</h2>
+        <h3>¿Qué es Git?</h3>
+        <p>Git es un sistema de control de versiones distribuido que permite a los desarrolladores rastrear cambios en archivos y coordinar el trabajo en proyectos de software. Fue creado por Linus Torvalds en 2005 y permite trabajar de manera eficiente en equipos, facilitando la colaboración. Con Git, puedes crear ramas para desarrollar características de forma independiente y luego fusionarlas con la rama principal. También ofrece funcionalidades como el historial de cambios, el manejo de conflictos y la posibilidad de revertir a versiones anteriores. Su uso es fundamental en el desarrollo ágil y en proyectos de código abierto.</p>
+
+        <section>
+            <h2>¿Cómo conectar un repositorio local?</h2>
+            <p>Inicia con git init. Para vinvular tu repositorio local con uno remoto en Git Hub, usa el comando git remote add origin (añade URL de tu proyecto)</p>
+            <img src="WhatsApp Image 2024-09-22 at 11.46.33 AM.jpeg" alt="">
+        </section>
+
+        <section>
+            <h2>Verifica la conexión</h2>
+            <p>Para asegurarnos que nuestro repositorio local esta correctamente vinculado con el remoto, usamos el codigo git remote -v.
+               
+               Este comando nos mostrará las URLS de los repositorios remotos asociados a tu repositorio local.
+            </p>
+            <img src="WhatsApp Image 2024-09-22 at 11.54.46 AM.jpeg" alt="">
+        </section>
+
+        <section>
+            <h2>Llevar tus cambios al repositorio remoto</h2>
+            <p>Para subir tus cambios locales al repositorio remoto en GitHub, usamos el comando comando: git push -u origin main</p>
+            <img src="WhatsApp Image 2024-09-23 at 8.23.16 AM.jpeg" alt="">
+            <p>Este comando sube tus commits a la rama principal del repositorio remoto. Si estás trabajando en una rama diferente, reemplaza main con el nombre de tu rama.</p>
+        </section>
+
+        <section>
+            <h2>Prueba final.</h2>
+            <p>Ya despues de eso podemos enviar con push los cambios que tengamos y verificarlos en la pagina web de github.</p>
+            
+        </section>
+
+       <section>
+            <h2>¿Qué es un branch (rama) y cómo funciona un merge en git?</h2>
+        </section> 
+
+        <section>
+            <h2>Creación de branches en git.</h2>
+            <p>En Git, las ramas (o branches) son una característica poderosa que te permite trabajar en diferentes versiones de tu proyecto simultáneamente. Las ramas te permiten desarrollar nuevas funcionalidades, corregir errores o experimentar con nuevas ideas sin afectar la rama principal del proyecto.</p>
+            <p>¿Por qué usar ramas?</p>
+            <p>Desarrollo paralelo: Permite a varios desarrolladores trabajar en diferentes características o correcciones de manera simultánea.</p>
+            <p>Pruebas: Puedes probar nuevas ideas sin afectar la estabilidad de la rama principal.</p>
+            <p>Gestión de versiones: Facilita la integración de diferentes versiones y cambios en el proyecto.</p>
+            <p>Ejemplo práctico: Supongamos que estás trabajando en un proyecto y necesitas añadir una nueva funcionalidad. Primero, crea una nueva rama para desarrollar esta funcionalidad:
+
+                git checkout -b creacionNuevaRama</p>
+            <p>Esto crea una nueva rama llamada creacionNuevaRama y cambia a esa rama. Después de realizar los cambios y confirmar tus modificaciones en esta rama, puedes fusionarla (merge) con la rama principal:</p>
+
+            <img src="WhatsApp Image 2024-09-23 at 8.23.16 AM.jpeg" alt="">
+            <p>El comando git merge integra los cambios de la rama creacionNuevaRama en la rama principal master. Si hay conflictos, Git te pedirá que los resuelvas antes de completar la fusión.</p>
+            <img src="WhatsApp Image 2024-09-23 at 8.38.03 AM.jpeg" alt="">
+        </section> 
+
+    </section>
+
+    <section>
+     
+    </section>
+    
+    <section>
+             
+
+   
+</body>
+</html>
